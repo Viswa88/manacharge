@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Reveal } from '@/components/reveal'
 
 // Replace with your real Google Form embed URL.
-const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/your-form-id/viewform'
+const GOOGLE_FORM_URL = 'https://forms.gle/2jEN891MBYcY7MMb6'
 
 export function Survey() {
   return (
