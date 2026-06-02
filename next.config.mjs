@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Static export for Cloudflare Pages. Comment out `output` to deploy on Vercel.
-  output: 'export',
+  // Use a standalone server build so Cloudflare/OpenNext can locate server files.
+  // If you intentionally need a static export, remove OpenNext/Cloudflare adapter instead.
+  output: 'standalone',
   typescript: {
     ignoreBuildErrors: true,
   },
